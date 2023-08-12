@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+:root {
+    --fonte-titulo: 'Oswald', sans-serif;
+    --fonte-textos: 'Abel', sans-serif;
+    --fonte-box: 'Fjalla One', sans-serif;
+    --cor-de-fundo-primaria: #0C082D;
+    --cor-de-fundo-secundaria: #000106;
+    --cor-primaria: #F2F2F2;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, var(--cor-de-fundo-primaria) , var(--cor-de-fundo-secundaria));
+    color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--fonte-textos);
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+.voce-disse {
+    font-size: 1.5em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    font-family: var(--fonte-box);
+    border: 2px solid var(--cor-primaria);
+    display: inline-block;
+    font-size: 3.5em;
+    padding: 20px;
+    margin: 20px;
+}
+
+.acertou {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--cor-primaria);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
